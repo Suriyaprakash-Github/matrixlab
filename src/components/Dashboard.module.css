@@ -1,0 +1,32 @@
+.dashboard {
+  margin: 2.8rem 10rem;
+}
+@media (max-width: 40rem) {
+  .dashboard {
+    margin: 0;
+  }
+}
+
+.header > button img {
+  width: 1rem;
+  padding: 0.2rem;
+}
+
+.dashboard_body {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header > button {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: none;
+  border: 1px solid #71c7ec;
+  background-color: #212529;
+  color: white;
+}
